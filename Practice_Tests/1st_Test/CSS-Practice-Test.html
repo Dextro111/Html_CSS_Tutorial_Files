@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head> <link href="practice-test.css" type="text/css" rel="stylesheet">
+            <script type="text/javascript">
+                function Validate(){
+                    if (document.Test.Surnname.value == "")
+                    alert("PLEASE FILL IN YOUR SURNNAME");
+                    
+                    if (document.Test.FirstName.value == "")
+                    alert("PLEASE FILL IN YOUR FIRSTNAME")
+                
+                    if(document.Test.Age.value == "")
+                    alert("PLEASE FILL IN YOUR AGE")
+
+                    if(document.Test.Email.value == "")
+                    alert("PLEASE FILL IN YOUR EMAIL")
+
+                    if(document.Test.PhoneNumber.value == "")
+                    alert("PLEASE FILL IN YOUR PHONE NUMBER")
+
+                    if(document.Test.HouseAddress.value =="")
+                    alert("PLEASE FILL IN YOUR HOUSE ADDRESS")
+                    return;
+                }
+
+                function Click(){
+                    if(document.Test.Sex.value == "Female")
+                    alert("YOU HAVE SELECTED MALE");
+
+                    if(document.Test.Sex.value == "Male")
+                    alert("YOU HAVE SELECTED FEMALE");
+                    return;
+                }
+                function jamess(){
+                    if(document.Test20222.james.value =="")
+                    alert("Bla ot Bla")
+                return;
+                }
+            </script>
+    </head>
+</html>
+
+    <body>
+        <h1>TAKE A QUICK SURVEY</h1>
+
+        <div class="practice">
+           
+    <form id="form" name="Test" action="">
+        <h3>Lets Get Started...</h3>
+        <div class="Surnname1">    
+            <label for="Surnname" id="label-Surnname"  >
+                Surnname:
+            </label>
+            <input id="Surnname" type="text" name="Surnname" placeholder="Enter Your Surnname" value=""/>
+            
+            <div id="Passport1">
+            <label for="Passport" id="label-passport">
+                Passport:
+            </label>
+            <input id="Passport" type="image" name="Passport" src="jesu.jpg">
+            </div>
+
+        </div>    
+        <br/>
+            
+        <div class="FirstName1">
+            <label for="FirstName" id="label-Firstname">
+                FirstName:
+            </label>    
+            <input id="FirstName" type="text" name="FirstName" placeholder="Enter Your FirstName" value=""/>
+        </div>   
+        <br/>
+        
+        <div class="Age1">
+            <label for="age" id="label-age">
+                Age:
+            </label>
+            <input id="age" type="number" name="Age" placeholder="Enter your Age" value=""/>
+        </div>
+        <br />
+
+        <div class="sex1">
+            <label for="sex" id="label-sex">
+                Sex:
+            </label> 
+            <label id="Male"> Male </label>  <input class="sex" type="radio" checked="checked" name="Sex" value="Male" onfocus="Click()">
+            <label id="Female"> Female </label> <input class="sex" type="radio" checked="checked" name="Sex" value="Female" onfocus="Click()">
+        </div>
+        <br />
+
+        <div class="State1">
+            <label for="State" id="label-state">
+                State Of Origin:
+            </label>
+            <select id="State" name="State Of Origin">
+                <option aria-placeholder="State of Origin" >Enter Your State Of Origin</option>
+                <option value="Abia State"> Abia State </option>
+                <option value="Lagos State"> Lagos State </option>
+                <option value="Abuja"> F.C.T Abuja </option>
+                <option value="Imo State"> Imo State </option>
+                <option value="Rivers State"> Rivers State </option>
+                <option value="Delta State"> Delta State</option>
+                <option value="Kaduna"> Kaduna State</option>
+            </select>
+        </div>
+        <br />
+
+        <div class="Email1">
+            <label for="Email" id="label-email">
+                Email:
+            </label>
+            <input id="Email" type="email" name="Email" placeholder="Enter Your Email" value=""/>
+        </div>
+        <br />
+
+        <div class="Number1">
+            <label for="Number" id="label-number">
+                Phone Number:
+            </label>
+            <input id="Number" type="number" name="PhoneNumber" placeholder="Enter Your Phone Number" value=""/>
+        </div>
+        <br/>
+
+        <div class="Address1">
+            <label for="Address" id="label-adress">
+            Address:
+            </label>
+            <input id="Address" type="text" name="HouseAddress" placeholder="Enter Your Address" value=""/>
+        </div>
+        <br />
+
+        <div class="stack1">
+            <label for="stack" id="label-stack">
+              Select Your Stack:
+            </label>
+            <br/>
+            <label>HTML:</label> <input type="checkbox" name="stack" value="HTML"/>
+            <br/>
+            <label>CSS:</label>  <input type="checkbox" name="stack" value="CSS"/>
+            <br/>
+            <label>JAVASCRIPT:</label> <input type="checkbox" name="stack" value="JAVASCRIPT"/>
+            <br/>
+            <label>DEBUGGING:</label> <input type="checkbox" name="stack" value="DEBUGGING"/>
+            <br/>
+            <label>FRONT END DEVELOPING:</label> <input type="checkbox" name="stack" value="DEBUGGING"/>
+            <br/>
+            <label>BACK END DEVELOPING:</label> <input type="checkbox" name="stack" value="BACK END DEVELOPING"/>
+        </div>
+        
+    </form>
+        <br/>
+        <form name="Test20222">
+            <input id="button" type="submit" value="SUBMIT" onclick="Validate();">
+
+            <input type="text" name="james" value="" placeholder="jameee">
+        
+            <input id="button" type=" submit" value="new" onclick="jamess()">
+            </form>
+        </div>
+    </body>

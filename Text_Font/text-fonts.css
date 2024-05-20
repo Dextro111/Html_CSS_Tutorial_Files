@@ -1,0 +1,17 @@
+div {
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: whitesmoke;
+    
+}
+body {
+    background-color: brown;
+}
+p {
+    text-shadow: 6px 6px 3px black;
+}

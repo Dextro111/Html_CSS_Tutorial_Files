@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+}
+form {
+    background-color: gray;
+    padding: 1em;
+    display: inline-block;
+}
+input {
+    display: block;
+    margin-top: 1em;
+}

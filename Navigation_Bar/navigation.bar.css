@@ -1,0 +1,40 @@
+UL {
+    margin: 0.5;
+    padding: 0.5;
+    background-color: #333;
+}
+LI {
+    display: inline;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1em 2em 1em 2em;
+}
+a:hover {
+    background-color: indianred;
+}
+body {
+    text-align: center;
+    margin:1.25emem ;
+    background-color: cornflowerblue;
+    
+}
+.nav{
+    text-shadow: 3px 3px 2px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 5em;
+}
+.nav1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: wheat
+}
+.nav2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: black;
+}

@@ -1,0 +1,8 @@
+div {
+    border: 5px double gold;
+    max-width: 50%;
+    text-align: center;
+    min-width: 50%;
+    padding: 20px;
+    background-color: gray;
+}

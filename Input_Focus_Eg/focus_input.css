@@ -1,0 +1,25 @@
+input {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    font-size: 1.3em;
+    border-radius: 10px;
+
+}
+input:focus {
+    color: white;
+    background: black;
+    outline: none;
+}
+body {
+    margin-top: 1em;
+    background-color: grey;
+}
+h1 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+button{
+    color: grey;
+}

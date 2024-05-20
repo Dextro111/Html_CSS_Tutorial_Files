@@ -1,0 +1,27 @@
+.Left{
+    float: left;
+    background-color: aquamarine;
+    color: chocolate;
+    padding: 1em 2em;
+    font-weight: bold;
+    border-radius: 2em;
+}
+.right {
+    float: right;
+    background-color: aquamarine;
+    color: chocolate;
+    padding: 1em 2em;
+    font-weight: bold;
+    border-radius: 2em;
+}
+body {
+    background-color: lightblue; 
+    margin: 2em;
+}
+.extra {
+    clear: both;
+}
+.heads {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}

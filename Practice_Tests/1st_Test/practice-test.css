@@ -1,0 +1,190 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+    border: 10px solid black;
+}
+h1 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornsilk;
+    font-size: 4em;
+}
+#form {
+    text-align: center;
+    box-sizing: border-box;
+}
+.practice {
+    border: 10px double wheat;
+    padding: 40px;
+    text-align: center;
+    margin-left: 17em;
+    margin-right: 10em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    height: 50em;
+    width: 60em;
+    background-color: gray;
+    
+}
+
+#button{
+    min-width: 0;
+    color: bisque;
+    background-color:gray ;
+    padding: 1em 2em;
+    margin-top: 1.5em;
+    font-weight: bold;
+} 
+#button:active {
+    box-shadow: inset 1px 1px 5px black ;
+}
+#button:hover {
+    background-color: darkcyan;
+}
+#Passport1 {
+    height: 5em;
+    width: 3em;
+    position: relative;
+    left: 8em;
+    display: inline-block;
+}
+#Passport {
+    height: 4em;
+    width: 4em;
+}
+#Surnname1 {
+    display: inline;
+}
+#label-Surnname {
+    position: relative;
+    left: 51px;
+    font-weight: bold;
+}
+
+#Surnname {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-left: 53px;
+}
+#Surnname:focus {
+     background-color:wheat;
+     color: black;
+}
+#FirstName {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+}
+#FirstName:focus {
+    background-color: wheat;
+    color: black;
+}
+#label-Firstname {
+ font-weight: bold;
+}
+
+#label-age {
+    position: relative;
+    left: 2em;
+    font-weight: bold;
+}
+#age {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-left: 39px;
+}
+#age:focus {
+    background-color: wheat;
+    color: black;
+}
+.sex {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 5%;
+}
+#label-sex {
+    position: relative;
+    right: 8.4em;
+    font-weight: bold;
+}
+#State {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-right: 49px;
+}
+#State:focus{
+    background-color: wheat;
+    color: black;
+}
+#label-state{
+font-weight: bold;
+}
+
+#Email {
+    margin-top:0.5em ;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-left: 30px;
+}
+#Email:focus{
+    background-color: wheat;
+    color: black;
+}
+#label-email{
+    position: relative;
+    left: 1.4em;
+    font-weight: bold;
+}
+#Number {
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-right: 2.2em;
+
+}
+#Number:focus{
+    background-color: wheat;
+    color: black;
+}
+#label-number{
+    font-weight: bold;
+    position: relative;
+    right: 0.5em;
+}
+#Address{
+    margin-top: 0.5em;
+    outline: none;
+    padding: 0.75em;
+    border: none;
+    min-width: 50%;
+    margin-left: 1em;
+
+}
+#Address:focus{
+    background-color: wheat;
+    color: black;
+}
+#label-adress{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
